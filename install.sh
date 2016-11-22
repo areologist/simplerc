@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Installing vim
-apt-get update && apt-get install vim
+apt-get update && apt-get install -y vim
 
 echo Copying files...
 
@@ -10,7 +10,7 @@ cp .tmux.conf ~/
 cp .vimrc ~/
 
 echo Installing tmux...
-apt-get install tmux
+apt-get install -y tmux
 
 echo Acquiring tpm...
 
