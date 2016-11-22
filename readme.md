@@ -4,6 +4,8 @@ Minimalistic dotfiles that I pull into throwaway posix VMs for a semi-consistent
 
 ---
 
+Copy `autoload/` directory to `~/.vim/` directory.
+
 Don't forget to install `tmux` and then `tpm`:
 
 ```
