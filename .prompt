@@ -1,2 +1,2 @@
-
+# export PS1='🤖  [\u] $ '
 export PS1='👾  $ '

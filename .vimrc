@@ -3,8 +3,14 @@ call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-markdown'
+Plug 'hdima/python-syntax'
 " Plug 'vim-ruby/vim-ruby'
 " Plug 'fatih/vim-go'
+" Plug 'elzr/vim-json'
+" Plug 'klen/python-mode'
+" Plug 'elixir-lang/vim-elixir'
+" Plug 'leafgarland/typescript-vim'
+"
 
 call plug#end()
 
