@@ -4,15 +4,9 @@ Minimalistic dotfiles that I pull into throwaway posix VMs for a semi-consistent
 
 ---
 
-Copy `autoload/` directory to `~/.vim/` directory.
+Clone repo, run `chmod u+x install.sh && ./install.sh`.
 
-Don't forget to install `tmux` and then `tpm`:
-
-```
-$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
-
-Might need:
+On first run of tmux might need:
 
 ```
 $ tmux source ~/.tmux.conf
