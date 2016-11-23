@@ -13,3 +13,5 @@ $ tmux source ~/.tmux.conf
 ```
 
 And then `prefix + I`.
+
+Open vim and run `:PlugInstall`.
